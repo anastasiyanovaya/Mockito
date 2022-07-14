@@ -28,7 +28,6 @@ public class Afisha { //менеджер афиши
     }
 
     public String[] findLast() { //Вывод максимум лимит последних добавленных фильмов в обратном от добавления порядке
-        int limit = 10;
         String[] ans;
         if (limit < movies.length) {
             ans = new String[limit];
